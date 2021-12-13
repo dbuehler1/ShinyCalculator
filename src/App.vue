@@ -38,7 +38,7 @@ export default {
 
       this.numbers.splice(0);
       do {
-        testnum = Math.floor(Math.random() * 4096) + 1;
+        testnum = Math.floor(Math.random() * 8192) + 1;
         //8192
         this.numbers.push(testnum);
         this.counter++;
